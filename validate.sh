@@ -1,0 +1,1 @@
+python youtube-8m/eval.py --eval_data_pattern=training_data/yt8m/v2/video/validate*.tfrecord --train_dir training_data/yt8m/v2/models/video/sample_model --run_once

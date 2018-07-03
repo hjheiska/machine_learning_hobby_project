@@ -1,0 +1,1 @@
+python youtube-8m/train.py --feature_names='mean_rgb,mean_audio' --feature_sizes='1024,128' --train_data_pattern=training_data/yt8m/v2/video/train*.tfrecord --train_dir training_data/yt8m/v2/models/video/sample_model --start_new_model
